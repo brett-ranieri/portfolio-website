@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.production.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
@@ -35,33 +35,38 @@
         </header>
 
         <main>
-            <h1>
-                Contact
-            </h1>
-            <div>
-                Brett Ranieri<br> 
-                1530 S. Quieto Ct<br>
-                Denver, CO 80223<br>
-                <br>
-                Phone: <a href="tel:6312785673">631.278.5673</a><br>
-                Skype: <a href="skype:brett.ranieri">brett.ranieri</a><br>
-                Email: <a href="mailto:brett.ranieri@gmail.com">brett.ranieri@gmail.com</a><br>
-                <br>
-                <a href="mailto:brett.ranieri@gmail.com">Contact me</a><br>
+            <div class="contact-content">
+                <h1>
+                    Contact
+                </h1>
+                <div>
+                    Brett Ranieri<br> 
+                    1530 S. Quieto Ct<br>
+                    Denver, CO 80223<br>
+                    <br>
+                    Phone: <a href="tel:6312785673">631.278.5673</a><br>
+                    Skype: <a href="skype:brett.ranieri">brett.ranieri</a><br>
+                    Email: <a href="mailto:brett.ranieri@gmail.com">brett.ranieri@gmail.com</a><br>
+                    <br>
+                    <a href="mailto:brett.ranieri@gmail.com">Send me and Email</a><br>
+                </div>
+                <h3>Or...if you'd prefer, just take a second to fill out the form below and I'll reach out to you!</h3>
+                <form action="" method="post" id="contact-form">
+                    <label class="standard-label" for="contact-email">E-mail: </label>
+                    <input type="email" id="contact-email" placeholder="word@something.com" required>
+                    <br>
+                    <br>
+                    <label class="standard-label" for="contact-phone">Telephone: </label>
+                    <input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="555-555-5555">
+                    <br>
+                    <br>
+                    <label class="standard-label" for="contact-message">Message: </label>
+                    <textarea id="contact-message" maxlength="240" placeholder="Tell me what you want to say here!"required></textarea>
+                    <br>
+                    <br>
+                    <input class="button" type="submit" value="Send message">
+                  </form>
             </div>
-
-            <form action="" method="post" id="contact-form">
-                <label class="standard-label" for="contact-email">E-mail: </label>
-                <input type="email" id="contact-email" placeholder="word@something.com" required>
-              
-                <label class="standard-label" for="contact-phone">Telephone: </label>
-                <input type="tel" id="contact-phone" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="555-555-5555">
-              
-                <label class="standard-label" for="contact-message">Message: </label>
-                <textarea id="contact-message" maxlength="240" placeholder="Tell me what you want to say here!"required></textarea>
-              
-                <input class="button" type="submit" value="Send message">
-              </form>
         </main>
 
         <footer class="page-footer">

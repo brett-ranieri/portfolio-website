@@ -184,7 +184,7 @@ button:focus,
     grid-row-end: 3;
 }
 
-.about-content {
+.about-content, .contact-content {
     text-align: center;
 }
 
