@@ -154,7 +154,6 @@ button:focus {
         -ms-flex-direction: column;
             flex-direction: column;
     text-align: center;
-    padding-bottom: 1em;
 }
 
 .profile {
