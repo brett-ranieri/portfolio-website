@@ -195,11 +195,7 @@ button:focus {
 /* end grid fallback */
 
 .poke-pic {
-	width: 300px;
-}
-
-.poke-header {
-	color: pink;
+	max-width: 100%;
 }
 
 @supports (display: grid) {
